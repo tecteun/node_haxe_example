@@ -1,0 +1,16 @@
+-lib hxcs
+-lib promhx
+-cp src
+-cs node_example
+-D net-ver=45
+-main Main
+-resource ./res/error_template.html@error_template
+-net-lib Microsoft.Azure.WebJobs.dll
+-net-lib Microsoft.Azure.WebJobs.Host.dll
+-net-lib Newtonsoft.Json.dll
+-net-lib System.Web.dll
+-net-lib System.Web.Mvc.dll
+-net-lib System.Web.WebPages.dll
+-net-lib System.Drawing.dll
+-net-lib System.XML.dll
+-net-std ./dotnet

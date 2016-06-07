@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="rtlvmapbackend" />
+    <movie fps="0" />
+    <movie width="0" />
+    <movie height="0" />
+    <movie version="0" />
+    <movie minorVersion="0" />
+    <movie platform="C#" />
+    <movie background="#FFFFFF" />
+    <movie preferredSDK="Haxe 3.2.0;3.2.0;" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option directives="net-ver=45" />
+    <option flashStrict="False" />
+    <option noInlineOnDebug="False" />
+    <option mainClass="Main" />
+    <option enabledebug="False" />
+    <option additional="-resource ./res/error_template.html@error_template&#xA;-net-lib Microsoft.Azure.WebJobs.dll&#xA;-net-lib Microsoft.Azure.WebJobs.Host.dll&#xA;-net-lib Newtonsoft.Json.dll&#xA;-net-lib System.Web.dll&#xA;-net-lib System.Web.Mvc.dll&#xA;-net-lib System.Web.WebPages.dll&#xA;-net-lib System.Drawing.dll&#xA;-net-lib System.XML.dll&#xA;-net-std ./dotnet" />
+  </build>
+  <!-- haxelib libraries -->
+  <haxelib>
+    <library name="hxcs" />
+    <library name="promhx" />
+  </haxelib>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\Main.hx" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="obj" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Custom" />
+    <option testMovieCommand="bin/index.html" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>

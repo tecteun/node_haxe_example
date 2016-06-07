@@ -1,0 +1,8 @@
+-lib nodejs
+-lib promhx
+-lib hxdom
+-cp src
+-js node_example.js
+-main Main
+-resource ./res/error_template.html@error_template
+-resource ./res/vmap.xsd@vmap_xsd

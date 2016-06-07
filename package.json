@@ -1,0 +1,20 @@
+{
+  "name": "rtl_vmap_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./node_example.js",
+  "scripts": {
+    "start": "node ./node_example.js",
+    "test": "node ./node_example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecteun/node_haxe_example.git"
+  },
+  "keywords": [
+    "VMAP",
+    "Backend"
+  ],
+  "author": "tecteun",
+  "license": "MIT"
+}
